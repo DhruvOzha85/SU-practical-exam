@@ -1,0 +1,33 @@
+<!-- 3. Use CSS media queries to change the background color of the page at 2-3 different scree sizes:
+            i. below 600px -- background become light blue.
+               between 600px and 900px -- background become light green
+               above 900px -- background become light yellow -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Background Colors</title>
+    <style>
+        body {
+            background-color: lightyellow;
+        }
+        @media (max-width: 600px) {
+            body {
+                background-color: lightblue;
+            }
+        }
+
+        @media (min-width: 600px) and (max-width: 900px) {
+            body {
+                background-color: lightgreen;
+            }
+        }
+    </style>
+</head>
+<body>
+
+</body>
+</html>
